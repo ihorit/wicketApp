@@ -2,10 +2,11 @@ package com.wicketproject.pages.student;
 
 import com.wicketproject.MenuItemEnum;
 
-public class StudentHomePage extends StudentMenu {
-
-    @Override
+/**
+ * Created by it01 on 04.06.16.
+ */
+public class TestPage extends StudentMenu {
     public MenuItemEnum getActiveMenu() {
-        return MenuItemEnum.HOMESTUDENT;
+        return MenuItemEnum.USERTEST;
     }
 }

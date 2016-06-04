@@ -1,6 +1,6 @@
 package com.wicketproject.pages;
 
-import com.wicketproject.BasePage;
+import com.wicketproject.pages.admin.BasePage;
 import com.wicketproject.MenuItemEnum;
 
 public class HomePage extends BasePage {

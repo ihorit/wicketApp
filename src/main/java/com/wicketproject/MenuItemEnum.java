@@ -4,10 +4,11 @@ public enum MenuItemEnum {
 
     HOMESTUDENT("Home"),
     HOMEADMIN("Home"),
-    PRODUCTS("Products"),
-    ABOUT_US("About us"),
+    PROFILE("Profile"),
+    USERTEST("Test"),
     CREATETEST("Create Test"),
     CREATEUSER("Students Registration"),
+    STUDENTPROFILE("Profile"),
     NONE("");
 
     private String label;

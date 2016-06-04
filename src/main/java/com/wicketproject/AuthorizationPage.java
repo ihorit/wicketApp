@@ -1,6 +1,6 @@
 package com.wicketproject;
 
-import com.wicketproject.pages.admin.HomeAdminMenu;
+import com.wicketproject.pages.admin.HomeAdmin;
 import com.wicketproject.pages.student.StudentHomePage;
 import com.wicketproject.pages.student.StudentMenu;
 import org.apache.wicket.markup.html.WebPage;
@@ -43,7 +43,7 @@ public class AuthorizationPage extends WebPage {
             if(username.equals("test") && password.equals("test"))
             {
                 loginStatus.setDefaultModelObject("Congratulations!");
-                setResponsePage(HomeAdminMenu.class);
+                setResponsePage(HomeAdmin.class);
             }else if(username.equals("st") && password.equals("st")) {
                 setResponsePage(StudentHomePage.class);
             }else
