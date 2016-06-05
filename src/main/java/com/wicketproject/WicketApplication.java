@@ -1,6 +1,7 @@
 package com.wicketproject;
 
 import com.wicketproject.pages.admin.CreateUserPage;
+import com.wicketproject.pages.admin.ViewResultPage;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import com.wicketproject.pages.student.StudentHomePage;
@@ -17,7 +18,7 @@ public class WicketApplication extends WebApplication {
     public void init() {
         mountPage("student", StudentHomePage.class);
         mountPage("createuser", CreateUserPage.class);
-//        mountPage("skills", OurSkillsPage.class);
+        mountPage("viewresults", ViewResultPage.class);
         mountPage("createtestpage", CreateTestPage.class);
 
         getMarkupSettings().setStripWicketTags(true);

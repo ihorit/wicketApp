@@ -5,9 +5,6 @@ import com.wicketproject.MenuItemEnum;
 
 public class HomePage extends BasePage {
 
-    public HomePage() {
-
-    }
 
     @Override
     public MenuItemEnum getActiveMenu() {
