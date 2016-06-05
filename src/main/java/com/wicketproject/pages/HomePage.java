@@ -1,9 +1,10 @@
 package com.wicketproject.pages;
 
-import com.wicketproject.pages.admin.BasePage;
-import com.wicketproject.MenuItemEnum;
 
-public class HomePage extends BasePage {
+import com.wicketproject.MenuItemEnum;
+import com.wicketproject.pages.admin.HomeAdmin;
+
+public class HomePage extends HomeAdmin {
 
 
     @Override

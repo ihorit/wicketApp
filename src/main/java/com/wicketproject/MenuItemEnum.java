@@ -4,7 +4,7 @@ public enum MenuItemEnum {
 
     HOMESTUDENT("Home"),
     HOMEADMIN("Home"),
-    PRODUCTS("Products"),
+    USERTEST("Test"),
     ABOUT_US("About us"),
     CREATETEST("Create Test"),
     CREATEUSER("Students Registration"),

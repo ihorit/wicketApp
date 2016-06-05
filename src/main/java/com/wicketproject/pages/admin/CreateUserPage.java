@@ -1,5 +1,6 @@
 package com.wicketproject.pages.admin;
 
+import com.wicketproject.BasePage;
 import com.wicketproject.MenuItemEnum;
 
 /**
